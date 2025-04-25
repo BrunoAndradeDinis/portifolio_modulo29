@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle } from 'styled-components'
 
 const EstiloGlobal = createGlobalStyle`
   *{
@@ -6,10 +6,11 @@ const EstiloGlobal = createGlobalStyle`
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    background-color: antiquewhite;
-
+    font-family: "Inter", sans-serif;
+    
     body{
       padding-top: 80px;
+      background-color: antiquewhite;
     }
   }
 `
