@@ -1,4 +1,4 @@
-import { Titulo as TituloEstilo } from './styles'
+import { Titulo as TituloEstilo } from "./styles"
 
 export type Props = {
   children: string
