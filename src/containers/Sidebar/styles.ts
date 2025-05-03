@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { P } from "../../components/Paragrafo/styles"
+import { Theme } from "../../themes/dark"
 
 export const Descricao = styled(P)`
   margin-top: 24px;
@@ -7,16 +8,17 @@ export const Descricao = styled(P)`
 `
 
 export const BotaoTema = styled.button`
-  color: ${({ theme }) => theme.corDeFundo};
+  color: ${({ theme }) => (theme as Theme).corDeFundo};
   font-size: 10px;
   border-radius: 0.75rem;
-  background-color: ${({ theme }) => theme.corPrincipal};
+  background-color: ${({ theme }) => (theme as Theme).corPrincipal};
   padding: 0.5rem;
   font-weight: bold;
   cursor: pointer;
 
   &:hover {
-    background-color: ${({ theme }) => theme.corDeFundoBotaoHoverPreto};
+    background-color: ${({ theme }) =>
+      (theme as Theme).corDeFundoBotaoHoverPreto};
   }
 `
 export const SidebarContainer = styled.div`
