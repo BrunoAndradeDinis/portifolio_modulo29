@@ -7,16 +7,16 @@ export const Descricao = styled(P)`
 `
 
 export const BotaoTema = styled.button`
-  color: #eee;
+  color: ${({ theme }) => theme.corDeFundo};
   font-size: 10px;
   border-radius: 0.75rem;
-  background-color: #282a35;
+  background-color: ${({ theme }) => theme.corPrincipal};
   padding: 0.5rem;
   font-weight: bold;
   cursor: pointer;
 
   &:hover {
-    background-color: rgba(40, 42, 53, 0.63);
+    background-color: ${({ theme }) => theme.corDeFundoBotaoHoverPreto};
   }
 `
 export const SidebarContainer = styled.div`
@@ -24,4 +24,9 @@ export const SidebarContainer = styled.div`
   top: 80px;
   left: 0;
   height: 500px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+    text-align: center;
+  }
 `
