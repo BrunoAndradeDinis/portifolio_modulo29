@@ -7,6 +7,6 @@ export const RedesLinks = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 100px;
-  padding: 1rem;
+  padding: 0.5rem;
   margin-bottom: 2rem;
 `
