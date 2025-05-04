@@ -5,6 +5,7 @@ export const Card = styled.div`
   border: 1px solid ${({ theme }) => (theme as Theme).corDaBorda};
   padding: 1rem;
   border-radius: 0.5rem;
+  min-height: 168px;
 `
 export const LinkBotao = styled.a`
   display: inline-block;
@@ -14,6 +15,7 @@ export const LinkBotao = styled.a`
   padding: 0.5rem;
   margin-top: 24px;
   border-radius: 0.5rem;
+  text-decoration: none;
 
   &:hover {
     cursor: pointer;

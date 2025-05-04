@@ -1,4 +1,5 @@
 import Paragrafo from "../../components/Paragrafo"
+import { Redes } from "../../components/Redes"
 import Titulo from "../../components/Titulo"
 import { GitHubSecao } from "./styles"
 
@@ -6,10 +7,12 @@ const Sobre = () => (
   <section>
     <Titulo fontSize={18}>Sobre</Titulo>
     <Paragrafo>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-      repellat, quos ducimus consectetur possimus sapiente molestiae autem
-      saepe! Laborum ipsa reiciendis, officiis eaque numquam deserunt ea quaerat
-      maiores veniam tenetur.
+      Sou Assistente Help Desk ll em transição de carreira para Desenvolvedor
+      Frontend , com experiência prática no desenvolvimento de interfaces web
+      modernas e responsivas. Formado em Desenvolvimento Web pela Ampli e
+      capacitado em diversas tecnologias avançadas por instituições como
+      EBAC(cursando) e Alura, estou em busca de uma oportunidade para aplicar e
+      expandir minhas habilidades técnicas em um ambiente desafiador e inovador.
     </Paragrafo>
 
     <GitHubSecao>
@@ -22,6 +25,7 @@ const Sobre = () => (
         alt="img"
       />
     </GitHubSecao>
+    <Redes />
   </section>
 )
 
