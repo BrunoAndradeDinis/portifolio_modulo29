@@ -9,7 +9,7 @@ export const LinkedIn = () => (
   >
     <FaLinkedin
       size={30}
-      color={(temaDark as Theme).corDeFundoBotaoHoverAzul}
+      color={(temaDark as Theme).corDeFundoBotao}
     ></FaLinkedin>
   </LinkedIN>
 )
