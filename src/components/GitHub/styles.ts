@@ -3,7 +3,6 @@ import { Theme } from "../../themes/dark"
 
 export const GitHUB = styled.a`
   &:hover {
-    background-color: ${({ theme }) =>
-      (theme as Theme).corDeFundoBotaoHoverAzul};
+    color: ${({ theme }) => (theme as Theme).corDeFundoBotaoHoverAzul};
   }
 `
